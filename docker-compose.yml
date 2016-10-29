@@ -9,7 +9,7 @@ php:
     - "solr:solr"
     - "mysql:mysql"
   volumes:
-    - ./config/installer/php/php.ini:/usr/local/etc/php/php.ini
+    - ./config/php/php.ini:/usr/local/etc/php/php.ini
     - ./logs/apache2:/var/log/apache2
     - ./web:/var/www/html
 phpmyadmin:
