@@ -1,0 +1,7 @@
+web
+composer.lock
+composer.phar
+vendor
+data
+.vagrant
+.DS_Store
